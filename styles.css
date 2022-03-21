@@ -31,7 +31,7 @@ body{
     width: 100vw;
 }
 
-.nav__container{
+.nav_container{
     width: 90%;
     height: 100%;
     max-width: 1100px;
@@ -47,7 +47,7 @@ body{
    
 }
 
-.nav__container__logo {
+.nav_container_logo {
     color: var(--color-primary);
     font-weight: bolder;
 }
@@ -78,7 +78,7 @@ body{
     margin: 0 auto;
 }
 
-.container--pad{
+.container_margin{
     margin-top: 100px;
 }
 
@@ -88,7 +88,7 @@ body{
     position:relative;
 }
 
-.Nurse__main{
+.Nurse_main{
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -106,7 +106,7 @@ body{
     max-height: 100%;    
 }
 
-.Nurse__texts{
+.Nurse_texts{
     width: 45%;
     color: rgb(36, 49, 173);
     display: flex;
@@ -122,7 +122,7 @@ body{
     color: var(--color-secondary)
 }
 
-.Nurse__text1{
+.Nurse_text1{
     font-size: 1rem;
     font-weight: 300px;
     color: var(--color-tertiary)
@@ -228,13 +228,13 @@ body{
 }
 
 /* Sections */
-.section__main{
+.section_main{
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.section__img{
+.section_img{
     width: 50%;
     margin: 0;
 }
@@ -262,7 +262,7 @@ body{
 }
 
 
-.section__copy--np{
+.section_main{
     font-size: 1rem;
     font-weight: 300px;
     color: var(--color-tertiary)
@@ -353,29 +353,29 @@ body{
     justify-content: space-between;
 }
 
-.about__v1_title{
+.about1_title{
     font-size: 1.5rem;
     color: var(--color-primary);
     font-weight: bolder;
 }
-.about__v2_title{
+.about2_title{
     font-size: 1.5rem;
     color: var(--color-secondary);
     font-weight: bolder;
 }
-.about__v1_text, .about__v2_text {
+.about1_text, .about2_text {
     color: var(--color-tertiary);
     font-size: 1.1rem;
     padding-top: 20px;
 }
 
-.about__v3_text{
+.about3_text{
     color: var(--color-tertiary);
     font-size: .9rem;
     padding-top: 20px;
 }
 
-.about__v1{
+.about1{
     width: 30%;
     margin-top: 50px;
     margin-left: 100px;
@@ -383,7 +383,7 @@ body{
     padding-right: 100px;
 }
 
-.about__v2{
+.about2{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -391,7 +391,7 @@ body{
     padding-right: 100px;
 }
 
-.about__v1_text--sp{
+.about1_text--sp{
     margin: 20px 20px;
    
     padding-left: 75px;
