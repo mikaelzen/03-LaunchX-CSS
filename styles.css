@@ -83,7 +83,6 @@ body{
 }
 
 /* Nurse section */
-/*  Modificar height para poder meter todo el content*/ 
 .Nurse{
     height: 140vh;
     position:relative;
@@ -110,8 +109,8 @@ body{
 }
 
  /* Esto ha conseguido que la imagen se expanda
- para ocupar el espacio verticla que habia disponible,
- a cosa de perder algo de visibilidad a lo ancho */
+ para ocupar el espacio vertical que habia disponible,
+ a costa de perder algo de visibilidad a lo ancho */
  .Nurse_pictureRED{
     width: 115%;  
 }
@@ -152,7 +151,7 @@ body{
 }
 
 /* Barra de citas. Aqui, el margen "auto" define
- su posicion inicial (centro) y la position relative, bottom-left,
+ su posicion inicial (centro). La position relative (bottom-left)
  definen su posicion al cambiar tamaño de ventana. */
 .location{
     width:fit-content;
@@ -194,8 +193,8 @@ body{
     display: inline-block;
     width: 100px;
     height: 50%;
-    background: var(--button-primary);
-    color: #fff;
+    background: rgb(202, 231, 255);
+    color:var(--button-primary);
     margin-top: 25px;
     margin-right: 25px;
     font-weight: 700;
@@ -204,10 +203,16 @@ body{
     text-align: center;
     border-radius: 5px;
     flex: 1;
+    border:var(--button-primary);
+    border-width: 2.5px;
+    border-style:outset;
+    
 }
 
 .location_button:hover{
-    background-color:#19a5a5 ;
+    background-color:var(--button-primary) ;
+    color:aliceblue;
+    
 }
 
 /* Card Container */
@@ -231,6 +236,12 @@ body{
     border-radius: 10px;
     padding: 15px 15px;
     overflow: hidden;
+}
+
+/* Efecto hover sobre cards*/
+.cards_container_item:hover{
+    transform:scale(1.1)
+
 }
 
 .cards_container_item_title{
@@ -314,6 +325,7 @@ body{
 .section_contacts_box{
     display: flex;
     border: 1px solid lightgray;
+    border-radius: 5px;
     background: #fff;
     box-shadow: var(--box-shadow);
     flex-direction: column; 
@@ -370,7 +382,7 @@ body{
     display: flex;
     justify-content: space-between;   
 }
-.about__block2{
+.about_rights{
     display: flex;
     justify-content: space-between;
 }
